@@ -4,12 +4,10 @@
   box-sizing: border-box;
 }
 .container {
-  background: gray;
   width: 100vw;
   height: 100vh;
 }
 .parent {
-  background: red;
   height: 64px;
   display: flex;
   justify-content: space-between;
@@ -22,12 +20,10 @@
   align-items: center;
 }
 .menu_right {
-  background: yellow;
   display: flex;
   align-items: center;
 }
 .menu_item {
-  background: purple;
   width: 72px;
 }
 .button {
