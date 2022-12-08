@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Fira Sans", sans-serif;
+}
+.container {
+  background: gray;
+  padding: 20px;
+}
+.card {
+  background: #f3fdf6;
+  width: 864px;
+  margin: 0 auto;
+  padding: 48px 32px;
+  border-radius: 12px;
+  border: 2px solid #85e0a3;
+  font-size: 24px;
+}
+.card_heading {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: -0.019em;
+  color: #1e1e1e;
+}
+.second {
+  margin-top: 20px;
+}
+.card_text {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.011em;
+  color: rgba(0, 0, 0, 0.8);
+}
+.profile {
+    display: flex;
+  background: #85e0a3;
+  height: 176px;
+  width: 100%;
+  margin-top: 10px;
+  align-items: center;
+  padding: 13px 22px;
+
+
+  img{
+    width: 126px;
+height: 132.01px;
+margin-right: 37px;
+  }
+  p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: -0.011em;
+
+color: rgba(0, 0, 0, 0.8);
+
+  }
+}
+.item-parent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 35px;
+}
+.item {
+  background: #85e0a3;
+  margin-top: 28px;
+  height: 240px;
+  width: 240px;
+  p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: -0.011em;
+
+color: rgba(0, 0, 0, 0.8);
+
+  }
+}
