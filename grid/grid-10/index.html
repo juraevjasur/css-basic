@@ -4,13 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles.css" />
     <title>Document</title>
+    <link rel="stylesheet" href="./scss/main.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="navbar">
-        <div class="logo">
+    <div class="wrapper">
+      <header>
+        <div>
+              <div class="logo">
           <div>
             <svg
               viewBox="0 0 182 49"
@@ -85,107 +86,21 @@
               </g>
             </svg>
           </div>
-          <input type="search" placeholder="何を何をお探しですか" />
         </div>
-        <div class="menu_right">
-          <ul>
-            <li class="menu_item">
-              <a href="#">お知らせ</a>
-            </li>
-            <li class="menu_item">
-              <a href="#">ログイン</a>
-            </li>
-            <li class="menu_item">
-              <a href="#">会員登録</a>
-            </li>
-            <li class="button">
-              <a class="button-text" href="#">出品</a>
-            </li>
-          </ul>
         </div>
-      </div>
-      <div class="banner">
-        <img
-          src="https://web-jp-assets-v2.mercdn.net/static/b0c9c8d31b494b76f12005cea5bd63a1/64a21/hero-banner-fallback.png"
-          alt=""
-        />
-        <div class="product_title">おすすめの商品</div>
-      </div>
-      <div class="big_box">
-        <div class="box">
-          <img src="./image/m13997875346_1.jpeg" alt="" />
-          <p class="box-text">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-          </p>
-
-          <p class="box-price">¥800</p>
-        </div>
-        <div class="box">
-          <img src="./image/m13997875346_1.jpeg" alt="" />
-          <p class="box-text">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-          </p>
-
-          <p class="box-price">800¥</p>
-        </div>
-        <div class="box">
-          <img src="./image/m84798999764_1.jpeg" alt="" />
-          <p class="box-text">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-          </p>
-
-          <p class="box-price">800¥</p>
-        </div>
-        <div class="box">
-          <img src="./image/m55079283132_1.jpeg" alt="" />
-          <p class="box-text">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-          </p>
-
-          <p class="box-price">800¥</p>
-        </div>
-        <div class="box">
-          <img src="./image/m78977591056_1.jpeg" alt="" />
-          <p class="box-text">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-          </p>
-
-          <p class="box-price">800¥</p>
-        </div>
-        <div class="box">
-          <img src="./image/jezael-melgoza-alY6_OpdwRQ-unsplash.jpg" alt="" />
-          <p class="box-text">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-          </p>
-          <p class="box-price">800¥</p>
-        </div>
-        <div class="box">
-          <img src="./image/m13997875346_1.jpeg" alt="" />
-          <p class="box-text">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-          </p>
-          <p class="box-price">800¥</p>
-        </div>
-        <div class="box">
-          <img src="./image/jase-bloor-oCZHIa1D4EU-unsplash.jpg" alt="" />
-          <p class="box-text">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-          </p>
-          <p class="box-price">800¥</p>
-        </div>
-        <div class="box">
-          <img src="./image/m13997875346_1.jpeg" alt="" />
-          <p class="box-text">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-          </p>
-          <p class="box-price">800¥</p>
-        </div>
-        <div class="box">
-          <img src="./image/sora-sagano-8sOZJ8JF0S8-unsplash.jpg" alt="" />
-          <p class="box-text">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-          </p>
-          <p class="box-price">800¥</p>
+        <nav>
+          <div class="nav-link">
+            <ul>
+              <li><a href="./information.html">お知らせ</a></li>
+              <li><a class="" href="./login.html">ログイン</a></li>
+              <li><a class="" href="./register.html">会員登録</a></li>
+            </ul>
+          </div>
+          <button>出品</button>
+        </nav>
+      </header>
+      <div class="product-container">
+        <p>おすすめの商品</p>
         </div>
       </div>
     </div>
